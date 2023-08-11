@@ -37,7 +37,7 @@ RUN apk add --no-cache ca-certificates git bash curl npm yarn tzdata openssl-dev
     apk del yarn go
 
 FROM base
-LABEL MAINTAINER Casjays Development <docker-admin@casjaysdev.com> \
+LABEL MAINTAINER Casjays Development <docker-admin@casjaysdev.pro> \
     version="v1.0" \
     description="Portus Dockerfile" \
     docker_image_name="casjay/portus" 
